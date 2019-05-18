@@ -1,0 +1,1 @@
+from .setuprender import SetupRenderManager

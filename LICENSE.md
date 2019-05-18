@@ -1,0 +1,1 @@
+Copyright (c) 2019, Mike Datsik (mikedatsik@gmail.com) All rights reserved.
