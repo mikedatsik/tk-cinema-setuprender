@@ -36,7 +36,7 @@ class Ui_setuprenderDialog(object):
     def retranslateUi(self, setuprenderDialog):
         setuprenderDialog.setWindowTitle(QtGui.QApplication.translate("setuprenderDialog", "The Current Sgtk Environment", None, QtGui.QApplication.UnicodeUTF8))
         self.btnSetupRender.setText(QtGui.QApplication.translate("setuprenderDialog", "Setup Render", None, QtGui.QApplication.UnicodeUTF8))
-        self.chbMultiLayer.setText(QtGui.QApplication.translate("setuprenderDialog", "MultiLayered Pipeline", None, QtGui.QApplication.UnicodeUTF8))
+        self.chbMultiLayer.setText(QtGui.QApplication.translate("setuprenderDialog", "Single EXR Pipeline", None, QtGui.QApplication.UnicodeUTF8))
         self.label.setText(QtGui.QApplication.translate("setuprenderDialog", "Render Engine", None, QtGui.QApplication.UnicodeUTF8))
 
 from . import resources_rc

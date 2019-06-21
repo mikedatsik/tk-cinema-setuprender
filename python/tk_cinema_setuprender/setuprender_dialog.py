@@ -58,3 +58,4 @@ class SetupRenderDialog(QtGui.QWidget):
         engine = self._ui.cmbRenderEngine.itemData( self._ui.cmbRenderEngine.currentIndex() )
         overrideSettingsParams["engine"] = engine
         self._handler.doSetup(**overrideSettingsParams)
+        self.close()
